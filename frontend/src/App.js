@@ -3,7 +3,7 @@ import { useEffect } from "react";
 function App() {
   useEffect(() => {
     async function getData() {
-      const response = await fetch("http://localhost/sahepsipb12/backend/");
+      const response = await fetch("http://localhost");
       const data = await response.json();
       console.log(data);
     }
